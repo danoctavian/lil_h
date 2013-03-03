@@ -1,0 +1,12 @@
+Name:                lilh 
+Version:             0.0
+Description:         a lil Haskell server
+License:             GPL
+License-file:        LICENSE
+Author:              ursar 
+Maintainer:          danoctavian91@gmail.com 
+Build-Type:          Simple
+Cabal-Version:       >=1.2
+Executable draytracer
+  Main-is:           Lil_h.hs
+  Build-Depends:     base >= 4.3.1.0 && < 5 , parsec , unix , MaybeT , network , filepath , bytestring
